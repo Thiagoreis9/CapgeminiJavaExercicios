@@ -30,12 +30,12 @@ public class Atividade20 {
             if(anoVeiculo<=2000){
                 valorDesconto = 12.00 / 100;
                 quantidadeAntigos++;
-                quantidadeTotal++;
                 
             } else {
                 valorDesconto = 7.00 / 100;
-                quantidadeTotal++;
             }
+
+            quantidadeTotal++;
                         
             System.out.println("Valor do veiculo com desconto: " + (valorVeiculo - (valorVeiculo * valorDesconto)));
             System.out.println("Valor do desconto: " + valorVeiculo * valorDesconto);
